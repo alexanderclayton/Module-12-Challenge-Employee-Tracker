@@ -1,0 +1,26 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "Employee Tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexclaytonbootcamp/Module-12-Challenge-Employee-Tracker.git"
+  },
+  "author": "Alex Clayton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexclaytonbootcamp/Module-12-Challenge-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/alexclaytonbootcamp/Module-12-Challenge-Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
