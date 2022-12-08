@@ -1,5 +1,6 @@
 const inquirer = require('inquirer')
-const db = require("./server")
+const db = require("./db")
+const cTable = require("console.table")
 
 inquirer
     .prompt([
